@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luis Moreira — Desenvolvedor Back-end & Full-Stack</title>
+  <meta name="description" content="Portfolio de Luis Moreira, Desenvolvedor Back-end e Full-Stack especializado em Java Spring Boot, C#/.NET e React.js">
+  <meta name="keywords" content="Luis Moreira, desenvolvedor, back-end, full-stack, Java, Spring Boot, React, C#, portfolio">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Luis Moreira — Desenvolvedor Back-end & Full-Stack">
+  <meta property="og:description" content="Portfolio de Luis Moreira — Java, Spring Boot, React.js, C#/.NET">
+  <meta property="og:type" content="website">
+
+  <link href="assets/img/favicon.ico" rel="icon">
+
+  <!-- Google Fonts: Syne + DM Sans + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Theme Toggle -->
+  <button class="theme-toggle" id="themeToggle" title="Alternar tema">
+    <i class="bi bi-sun-fill" id="themeIcon"></i>
+  </button>
+
+  <!-- Mobile Nav Toggle -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+
+  <!-- ======= Header / Sidebar ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+    <a href="#hero" class="nav-logo scrollto">LM</a>
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li>
+          <a href="#hero" class="nav-link scrollto active">
+            <i class="bx bx-home"></i>
+            <span>Home</span>
+            <span class="nav-tooltip">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link scrollto">
+            <i class="bx bx-user"></i>
+            <span>Sobre</span>
+            <span class="nav-tooltip">Sobre mim</span>
+          </a>
+        </li>
+        <li>
+          <a href="#resume" class="nav-link scrollto">
+            <i class="bx bx-file-blank"></i>
+            <span>Currículo</span>
+            <span class="nav-tooltip">Resumo</span>
+          </a>
+        </li>
+        <li>
+          <a href="#portfolio" class="nav-link scrollto">
+            <i class="bx bx-grid-alt"></i>
+            <span>Portfolio</span>
+            <span class="nav-tooltip">Portfolio</span>
+          </a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link scrollto">
+            <i class="bx bx-envelope"></i>
+            <span>Contato</span>
+            <span class="nav-tooltip">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-content container" data-aos="fade-up" data-aos-delay="100">
+      <div class="hero-eyebrow">
+        <span class="hero-eyebrow-dot"></span>
+        Disponível para oportunidades
+      </div>
+      <h1>Luis Moreira</h1>
+      <p class="hero-subtitle">
+        Sou <span class="typed" data-typed-items="Desenvolvedor Back-end,Desenvolvedor Full-Stack,Apaixonado por Java & Spring,Entusiasta de Clean Code"></span>
+      </p>
+      <p class="hero-desc">
+        Desenvolvedor com experiência em soluções empresariais, APIs RESTful e interfaces modernas. Baseado em São Paulo, SP.
+      </p>
+      <div class="hero-cta">
+        <a href="#portfolio" class="btn-primary-custom scrollto">
+          <i class="bi bi-grid-3x3-gap-fill"></i> Ver projetos
+        </a>
+        <a href="#contact" class="btn-secondary-custom scrollto">
+          <i class="bi bi-envelope"></i> Falar comigo
+        </a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/luis-felipi-moreira-alves-b455922ab/" target="_blank" class="hero-social-link" title="LinkedIn">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="https://github.com/louiemoreira76" target="_blank" class="hero-social-link" title="GitHub">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="mailto:luis010101work@outlook.com" class="hero-social-link" title="Email">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Floating badge -->
+    <div class="hero-badge" data-aos="fade-left" data-aos-delay="400">
+      <div class="badge-title">// stats.json</div>
+      <div class="badge-stat">
+        <div class="badge-stat-icon"><i class="bi bi-folder2-open"></i></div>
+        <div>
+          <div class="badge-stat-num">6+</div>
+          <div class="badge-stat-label">Projetos</div>
+        </div>
+      </div>
+      <div class="badge-stat">
+        <div class="badge-stat-icon"><i class="bi bi-code-slash"></i></div>
+        <div>
+          <div class="badge-stat-num">8+</div>
+          <div class="badge-stat-label">Tecnologias</div>
+        </div>
+      </div>
+      <div class="badge-stat">
+        <div class="badge-stat-icon"><i class="bi bi-calendar-check"></i></div>
+        <div>
+          <div class="badge-stat-num">1+</div>
+          <div class="badge-stat-label">Ano de exp.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <span class="label">// about.me</span>
+          <h2>Sobre <span class="accent">mim</span></h2>
+          <p>Um desenvolvedor comprometido com código limpo, soluções eficientes e aprendizado contínuo.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Photo -->
+          <div class="about-photo-wrap" data-aos="fade-right" data-aos-delay="100">
+            <div class="about-photo-frame">
+              <img src="assets/img/testimonials/Photo.png" alt="Luis Moreira">
+              <div class="available-badge">
+                <span class="available-dot"></span>
+                Aberto a propostas
+              </div>
+            </div>
+            <div class="about-photo-accent"></div>
+            <div class="about-photo-accent-2"></div>
+          </div>
+
+          <!-- Content -->
+          <div class="about-content" data-aos="fade-left" data-aos-delay="200">
+            <h3>Luis Felipi Moreira Alves</h3>
+            <p class="role-tag">// Desenvolvedor Back-end & Full-Stack · São Paulo, SP</p>
+
+            <p>
+              Busco oportunidade para aplicar minhas habilidades em <strong>Java Spring Boot</strong> e <strong>React.js</strong> no desenvolvimento de soluções tecnológicas inovadora, com comprometido e excelência técnica. Possuo boa comunicação, o que facilita o trabalho em equipe e o alinhamento de expectativas com colegas e stakeholders e facilidade para aprender de forma contínua e me adaptar a novas tecnologias..
+            </p>
+            <p>
+              Tenho experiência no desenvolvimento de soluções personalizadas para ERP, atendendo demandas específicas de clientes que exigem funcionalidades não contempladas no sistema padrão. Atuo na criação de telas personalizadas, desde a arquitetura até a implementação de scripts de banco de dados, lógica em Java para operações CRUD e customizações em HTML.
+            </p>
+            <p>
+               Desenvolvo rotinas em Java, como botões de ação e ações agendadas, integradas a operações no banco de dados, além de eventos que funcionam como triggers para automatizar processos. Também possuo expertise na criação de procedures e triggers diretamente no banco de dados, oferecendo soluções eficientes para necessidades complexas que vão além das capacidades das rotinas Java.
+            </p>
+
+            <!-- Info grid -->
+            <div class="about-info-grid">
+              <div class="about-info-item">
+                <i class="bi bi-person-badge"></i>
+                <div>
+                  <span class="info-label">Nome</span>
+                  <span class="info-value">Luis Moreira</span>
+                </div>
+              </div>
+              <div class="about-info-item">
+                <i class="bi bi-geo-alt"></i>
+                <div>
+                  <span class="info-label">Cidade</span>
+                  <span class="info-value">São Paulo, SP</span>
+                </div>
+              </div>
+              <div class="about-info-item">
+                <i class="bi bi-calendar3"></i>
+                <div>
+                  <span class="info-label">Nascimento</span>
+                  <span class="info-value">1 Abril 2004</span>
+                </div>
+              </div>
+              <div class="about-info-item">
+                <i class="bi bi-envelope"></i>
+                <div>
+                  <span class="info-label">E-mail</span>
+                  <span class="info-value" style="font-size:12px">luis010101work@outlook.com</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tech stack -->
+            <div class="tech-stack-title">// Stack principal</div>
+            <div class="tech-badges">
+              <span class="tech-badge java"><i class="bx bxl-java"></i>Java</span>
+              <span class="tech-badge spring"><i class="bx bx-leaf"></i>Spring Boot</span>
+              <span class="tech-badge csharp"><i class="bx bx-code-alt"></i>C#/.NET</span>
+              <span class="tech-badge react"><i class="bx bxl-react"></i>React</span>
+              <span class="tech-badge nodejs"><i class="bx bxl-nodejs"></i>Node.js</span>
+              <span class="tech-badge sql"><i class="bx bx-data"></i>SQL</span>
+              <span class="tech-badge python"><i class="bx bxl-python"></i>Python</span>
+              <span class="tech-badge git"><i class="bx bxl-git"></i>Git</span>
+              <span class="tech-badge php"><i class="bx bxl-php"></i>PHP</span>
+              <span class="tech-badge linux"><i class="bx bxl-tux"></i>Linux</span>
+              <span class="tech-badge docker"><i class="bx bxl-docker"></i>Docker</span>
+              <span class="tech-badge kubernetes"><i class="bx bxl-kubernetes"></i>Kubernetes</span>
+              <span class="tech-badge aws"><i class="bx bxl-aws"></i>AWS</span>
+              <span class="tech-badge flutter"><i class="bx bxl-flutter"></i>Flutter</span>
+              <span class="tech-badge android"><i class="bx bxl-android"></i>Flutter</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Stats Bar ======= -->
+    <div class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item" data-aos="zoom-in" data-aos-delay="0">
+            <span class="stat-num" data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1">6</span>
+            <span class="stat-label">Projetos Concluídos</span>
+          </div>
+          <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+            <span class="stat-num" data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1">10</span>
+            <span class="stat-label">Tecnologias Dominadas</span>
+          </div>
+          <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+            <span class="stat-num" data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1">1</span>
+            <span class="stat-label">Anos de Experiência</span>
+          </div>
+          <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+            <span class="stat-num">ADS</span>
+            <span class="stat-label">Formação em Andamento</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <span class="label">// resume.json</span>
+          <h2>Meu <span class="accent">Currículo</span></h2>
+          <p>Experiência, educação e habilidades técnicas acumuladas ao longo da minha jornada.</p>
+        </div>
+
+        <div class="resume-grid">
+
+          <!-- Coluna esquerda: Experiência + Educação -->
+          <div>
+            <div class="resume-col-title" data-aos="fade-right">
+              <i class="bi bi-briefcase-fill"></i> Experiência
+            </div>
+
+            <div class="timeline" data-aos="fade-up" data-aos-delay="100">
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <div class="timeline-period"><i class="bi bi-calendar3"></i> AGO/2024 – NOV/2024</div>
+                  <div class="timeline-title">Desenvolvedor .NET – Estágio</div>
+                  <div class="timeline-org">DivTech – Rio de Janeiro, RJ</div>
+                  <div class="timeline-desc">
+                    <ul>
+                      <li>Gerenciamento e configuração de serviços de hospedagem na Hostinger, garantindo disponibilidade e desempenho das aplicações.</li>
+      <li>Atendimento e solução de chamados de suporte técnico, com foco na resolução ágil de problemas e boa comunicação com os usuários.</li>
+      <li>Desenvolvimento de aplicações web com ASP.NET no Visual Studio 2022 Community, incluindo ASP.NET Core MVC e Razor Pages.</li>
+      <li>Trabalho com bancos de dados SQL Server Express e MySQL, escrevendo consultas e otimizando operações.</li>
+      <li>Utilização do Entity Framework para acesso a dados e mapeamento objeto-relacional (ORM).</li>
+      <li>Criação e estilização de front-end com HTML, CSS, Bootstrap e JavaScript, garantindo interfaces responsivas e intuitivas.</li>
+      <li>Utilização do Figma para prototipagem e alinhamento de interfaces com o time antes do desenvolvimento.</li>
+      <li>Realização de manutenção em sistema adquirido por cliente, com a adição de funcionalidade para emissão de nota fiscal utilizando PHP Laravel.</li>
+      <li>Pesquisa e avaliação de tecnologias com potencial de favorecer a empresa sem custos, propondo soluções viáveis e economicamente sustentáveis.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-col-title mt-5" data-aos="fade-right">
+              <i class="bi bi-mortarboard-fill"></i> Educação
+            </div>
+
+            <div class="timeline" data-aos="fade-up" data-aos-delay="100">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <div class="timeline-period"><i class="bi bi-calendar3"></i> 2024 – Jun/2026</div>
+                  <div class="timeline-title">Bacharelado em ADS</div>
+                  <div class="timeline-org">Análise e Desenvolvimento de Sistemas</div>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <div class="timeline-period"><i class="bi bi-calendar3"></i> 2023</div>
+                  <div class="timeline-title">Ensino Técnico em TI</div>
+                  <div class="timeline-org">Instituto Social Nossa Senhora de Fátima, Socorro, SP</div>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <div class="timeline-period"><i class="bi bi-calendar3"></i> 2020 – 2022</div>
+                  <div class="timeline-title">Ensino Médio</div>
+                  <div class="timeline-org">Escola José Vieira de Moraes, SP</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna direita: Habilidades -->
+          <div data-aos="fade-left" data-aos-delay="100">
+
+            <div class="resume-col-title">
+              <i class="bi bi-lightning-fill"></i> Habilidades Técnicas
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-group-title">// Back-end</div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-top"><span class="skill-bar-name">Java / Spring Boot</span><span class="skill-bar-pct">85%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-top"><span class="skill-bar-name">C# / ASP.NET Core</span><span class="skill-bar-pct">75%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-top"><span class="skill-bar-name">Node.js / Express</span><span class="skill-bar-pct">70%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-top"><span class="skill-bar-name">PHP / Laravel</span><span class="skill-bar-pct">60%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"></div></div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-group-title">// Front-end & Banco de Dados</div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-top"><span class="skill-bar-name">React.js</span><span class="skill-bar-pct">72%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="72"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-top"><span class="skill-bar-name">SQL (MySQL, SQL Server)</span><span class="skill-bar-pct">80%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-top"><span class="skill-bar-name">HTML / CSS / JS</span><span class="skill-bar-pct">78%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-group-title">// Idiomas</div>
+              <div class="skill-tags">
+                <span class="skill-tag lang">🇧🇷 Português (Nativo)</span>
+                <span class="skill-tag lang">🇺🇸 Inglês (Avançado)</span>
+                <span class="skill-tag lang">🇪🇸 Espanhol (Básico)</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-group-title">// Ferramentas & Metodologias</div>
+              <div class="skill-tags">
+                <span class="skill-tag">Git / GitHub</span>
+                <span class="skill-tag">Linux</span>
+                <span class="skill-tag">Figma</span>
+                <span class="skill-tag">Scrum</span>
+                <span class="skill-tag">Kanban</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">REST API</span>
+                <span class="skill-tag">Entity Framework</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="section-alt">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <span class="label">// projects[]</span>
+          <h2>Meu <span class="accent">Portfolio</span></h2>
+          <p>Projetos desenvolvidos com foco em soluções reais — todos disponíveis no GitHub.</p>
+        </div>
+
+        <!-- Toolbar: Filtros + Busca -->
+        <div class="portfolio-toolbar" data-aos="fade-up" data-aos-delay="50">
+          <ul class="portfolio-filters" id="portfolio-flters">
+            <li data-filter="*" class="filter-active">Todos</li>
+            <li data-filter=".filter-backend">Back-end</li>
+            <li data-filter=".filter-frontend">Front-end</li>
+            <li data-filter=".filter-fullstack">Full-Stack</li>
+          </ul>
+          <div class="portfolio-search">
+            <i class="bi bi-search"></i>
+            <input type="text" id="portfolioSearch" placeholder="Buscar projeto...">
+          </div>
+        </div>
+
+        <div class="row g-4 portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <!-- Consumer Monitor -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-frontend" data-title="consumer monitor extensão chrome">
+            <div class="portfolio-wrap">
+              <div class="portfolio-thumb">
+                <img src="assets/img/portfolio/Consumer_Monitor/inicio.png" alt="Consumer Monitor">
+                <div class="portfolio-overlay">
+                  <a href="portfolio-details-consumer-monitor.html" class="portfolio-overlay-btn portfolio-details-lightbox" data-glightbox="type: external">
+                    <i class="bi bi-arrow-right"></i> Ver Detalhes
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-body">
+                <div class="portfolio-cat">Front-end</div>
+                <div class="portfolio-title">Consumer Monitor</div>
+                <div class="portfolio-subtitle">Extensão Chrome para monitoramento de performance</div>
+                <div class="portfolio-footer">
+                  <div class="portfolio-tags">
+                    <span class="portfolio-tag">JS</span>
+                    <span class="portfolio-tag">Chrome</span>
+                  </div>
+                  <a href="portfolio-details-consumer-monitor.html" class="portfolio-link-icon portfolio-details-lightbox" data-glightbox="type: external" title="Detalhes">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bibliotheca Classica -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-backend" data-title="bibliotheca classica php laravel buscador livros">
+            <div class="portfolio-wrap">
+              <div class="portfolio-thumb">
+                <img src="assets/img/portfolio/php-biblioteca/home.png" alt="Bibliotheca Classica">
+                <div class="portfolio-overlay">
+                  <a href="portfolio-details-bibliotheca-classica.html" class="portfolio-overlay-btn portfolio-details-lightbox" data-glightbox="type: external">
+                    <i class="bi bi-arrow-right"></i> Ver Detalhes
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-body">
+                <div class="portfolio-cat">Back-end</div>
+                <div class="portfolio-title">Bibliotheca Classica</div>
+                <div class="portfolio-subtitle">Buscador de livros com PHP Laravel e APIs externas</div>
+                <div class="portfolio-footer">
+                  <div class="portfolio-tags">
+                    <span class="portfolio-tag">PHP</span>
+                    <span class="portfolio-tag">Laravel</span>
+                    <span class="portfolio-tag">API</span>
+                  </div>
+                  <a href="portfolio-details-bibliotheca-classica.html" class="portfolio-link-icon portfolio-details-lightbox" data-glightbox="type: external" title="Detalhes">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MVCWebApp -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-backend" data-title="mvcwebapp gestão produtos csharp dotnet mvc">
+            <div class="portfolio-wrap">
+              <div class="portfolio-thumb">
+                <img src="assets/img/portfolio/MVCWebApp/2026_04_30_0z7_Kleki.png" alt="MVCWebApp">
+                <div class="portfolio-overlay">
+                  <a href="portfolio-details-mvcwebapp.html" class="portfolio-overlay-btn portfolio-details-lightbox" data-glightbox="type: external">
+                    <i class="bi bi-arrow-right"></i> Ver Detalhes
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-body">
+                <div class="portfolio-cat">Back-end</div>
+                <div class="portfolio-title">MVCWebApp</div>
+                <div class="portfolio-subtitle">Sistema de gestão de produtos com C# ASP.NET MVC</div>
+                <div class="portfolio-footer">
+                  <div class="portfolio-tags">
+                    <span class="portfolio-tag">C#</span>
+                    <span class="portfolio-tag">.NET</span>
+                    <span class="portfolio-tag">EF</span>
+                  </div>
+                  <a href="portfolio-details-mvcwebapp.html" class="portfolio-link-icon portfolio-details-lightbox" data-glightbox="type: external" title="Detalhes">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DiscoXP -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-fullstack" data-title="discoxp ecommerce games spring react">
+            <div class="portfolio-wrap">
+              <div class="portfolio-thumb">
+                <img src="assets/img/portfolio/discoxp/dico.png" alt="DiscoXP">
+                <div class="portfolio-overlay">
+                  <a href="portfolio-details-discoxp.html" class="portfolio-overlay-btn portfolio-details-lightbox" data-glightbox="type: external">
+                    <i class="bi bi-arrow-right"></i> Ver Detalhes
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-body">
+                <div class="portfolio-cat">Full-Stack</div>
+                <div class="portfolio-title">DiscoXP</div>
+                <div class="portfolio-subtitle">E-commerce de games com Spring Boot e React.js</div>
+                <div class="portfolio-footer">
+                  <div class="portfolio-tags">
+                    <span class="portfolio-tag">Java</span>
+                    <span class="portfolio-tag">Spring</span>
+                    <span class="portfolio-tag">React</span>
+                  </div>
+                  <a href="portfolio-details-discoxp.html" class="portfolio-link-icon portfolio-details-lightbox" data-glightbox="type: external" title="Detalhes">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- NutriBem -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-fullstack" data-title="nutribem gestão clínica nutrição spring react">
+            <div class="portfolio-wrap">
+              <div class="portfolio-thumb">
+                <img src="assets/img/portfolio/nutribem/nutri.png" alt="NutriBem">
+                <div class="portfolio-overlay">
+                  <a href="portfolio-details-NutriBem.html" class="portfolio-overlay-btn portfolio-details-lightbox" data-glightbox="type: external">
+                    <i class="bi bi-arrow-right"></i> Ver Detalhes
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-body">
+                <div class="portfolio-cat">Full-Stack</div>
+                <div class="portfolio-title">NutriBem</div>
+                <div class="portfolio-subtitle">Sistema de gestão para clínica de nutrição</div>
+                <div class="portfolio-footer">
+                  <div class="portfolio-tags">
+                    <span class="portfolio-tag">Java</span>
+                    <span class="portfolio-tag">Spring</span>
+                    <span class="portfolio-tag">React</span>
+                  </div>
+                  <a href="portfolio-details-NutriBem.html" class="portfolio-link-icon portfolio-details-lightbox" data-glightbox="type: external" title="Detalhes">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- GameSync -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-fullstack" data-title="gamesync plataforma jogos react nodejs tcc">
+            <div class="portfolio-wrap">
+              <div class="portfolio-thumb">
+                <img src="assets/img/portfolio/GameSync/GameSync.png" alt="GameSync">
+                <div class="portfolio-overlay">
+                  <a href="portfolio-details-GameSync.html" class="portfolio-overlay-btn portfolio-details-lightbox" data-glightbox="type: external">
+                    <i class="bi bi-arrow-right"></i> Ver Detalhes
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-body">
+                <div class="portfolio-cat">Full-Stack</div>
+                <div class="portfolio-title">GameSync</div>
+                <div class="portfolio-subtitle">Plataforma de games — TCC do ensino técnico</div>
+                <div class="portfolio-footer">
+                  <div class="portfolio-tags">
+                    <span class="portfolio-tag">React</span>
+                    <span class="portfolio-tag">Node</span>
+                    <span class="portfolio-tag">MySQL</span>
+                  </div>
+                  <a href="portfolio-details-GameSync.html" class="portfolio-link-icon portfolio-details-lightbox" data-glightbox="type: external" title="Detalhes">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- No results -->
+        <div class="portfolio-no-results" id="portfolioNoResults">
+          <i class="bi bi-search"></i>
+          <p>Nenhum projeto encontrado para "<span id="noResultsTerm"></span>"</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <span class="label">// contact.init()</span>
+          <h2>Entre em <span class="accent">Contato</span></h2>
+          <p>Tem um projeto em mente ou quer bater um papo sobre tecnologia? Me manda uma mensagem!</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Info -->
+          <div data-aos="fade-right" data-aos-delay="100">
+            <div class="contact-info-card">
+              <h3>Vamos conversar</h3>
+              <p>Estou aberto a oportunidades de emprego, freelas e colaborações. Respondo em até 24h.</p>
+
+              <div class="contact-links">
+                <a href="mailto:luis010101work@outlook.com" class="contact-link">
+                  <div class="contact-link-icon"><i class="bi bi-envelope-fill"></i></div>
+                  <div class="contact-link-text">
+                    <span class="cl-label">E-mail</span>
+                    <span class="cl-value">luis010101work@outlook.com</span>
+                  </div>
+                </a>
+                <a href="https://www.linkedin.com/in/luis-felipi-moreira-alves-b455922ab/" target="_blank" class="contact-link">
+                  <div class="contact-link-icon"><i class="bx bxl-linkedin"></i></div>
+                  <div class="contact-link-text">
+                    <span class="cl-label">LinkedIn</span>
+                    <span class="cl-value">luis-felipi-moreira-alves</span>
+                  </div>
+                </a>
+                <a href="https://github.com/louiemoreira76" target="_blank" class="contact-link">
+                  <div class="contact-link-icon"><i class="bi bi-github"></i></div>
+                  <div class="contact-link-text">
+                    <span class="cl-label">GitHub</span>
+                    <span class="cl-value">louiemoreira76</span>
+                  </div>
+                </a>
+                <div class="contact-link" style="cursor:default">
+                  <div class="contact-link-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                  <div class="contact-link-text">
+                    <span class="cl-label">Localização</span>
+                    <span class="cl-value">Zona Sul, São Paulo, SP</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div data-aos="fade-left" data-aos-delay="100">
+            <div class="contact-form-wrap">
+              <h3>Enviar mensagem</h3>
+              <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="contactName">Nome</label>
+                    <input type="text" id="contactName" name="name" placeholder="Seu nome" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="contactEmail">E-mail</label>
+                    <input type="email" id="contactEmail" name="email" placeholder="seu@email.com" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="contactSubject">Assunto</label>
+                  <input type="text" id="contactSubject" name="subject" placeholder="Proposta de emprego, freela, etc." required>
+                </div>
+                <div class="form-group">
+                  <label for="contactMessage">Mensagem</label>
+                  <textarea id="contactMessage" name="message" placeholder="Conta mais sobre o projeto ou oportunidade..." required></textarea>
+                </div>
+                <button type="submit" class="form-submit" id="contactSubmit">
+                  <i class="bi bi-send-fill"></i> Enviar Mensagem
+                </button>
+                <div class="form-status" id="formStatus"></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-logo">Luis<span class="accent">.</span>Moreira</div>
+      <p class="footer-tagline">"The only way to learn a new programming language is by writing programs in it." — Dennis Ritchie</p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/luis-felipi-moreira-alves-b455922ab/" target="_blank" class="footer-social" title="LinkedIn">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="https://github.com/louiemoreira76" target="_blank" class="footer-social" title="GitHub">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="mailto:luis010101work@outlook.com" class="footer-social" title="E-mail">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <p class="footer-copy">&copy; 2025 <strong>Luis Moreira</strong>. Feito com <span style="color:var(--accent)">❤</span> e muito café.</p>
+    </div>
+  </footer>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Vendor JS -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
