@@ -350,19 +350,19 @@
             <div class="skill-group">
               <div class="skill-group-title">// Back-end</div>
               <div class="skill-bar-item">
-                <div class="skill-bar-top"><span class="skill-bar-name">Java / Spring Boot</span><span class="skill-bar-pct">85%</span></div>
-                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+                <div class="skill-bar-top"><span class="skill-bar-name">Java / Spring Boot</span><span class="skill-bar-level">Avançado</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
               </div>
               <div class="skill-bar-item">
-                <div class="skill-bar-top"><span class="skill-bar-name">C# / ASP.NET Core</span><span class="skill-bar-pct">75%</span></div>
-                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div>
+                <div class="skill-bar-top"><span class="skill-bar-name">C# / ASP.NET Core</span><span class="skill-bar-level">Intermediário</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="65"></div></div>
               </div>
               <div class="skill-bar-item">
-                <div class="skill-bar-top"><span class="skill-bar-name">Node.js / Express</span><span class="skill-bar-pct">70%</span></div>
+                <div class="skill-bar-top"><span class="skill-bar-name">Node.js / Express</span><span class="skill-bar-level">Intermediário</span></div>
                 <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
               </div>
               <div class="skill-bar-item">
-                <div class="skill-bar-top"><span class="skill-bar-name">PHP / Laravel</span><span class="skill-bar-pct">60%</span></div>
+                <div class="skill-bar-top"><span class="skill-bar-name">PHP / Laravel</span><span class="skill-bar-level">Intermediário</span></div>
                 <div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"></div></div>
               </div>
             </div>
@@ -370,16 +370,16 @@
             <div class="skill-group">
               <div class="skill-group-title">// Front-end & Banco de Dados</div>
               <div class="skill-bar-item">
-                <div class="skill-bar-top"><span class="skill-bar-name">React.js</span><span class="skill-bar-pct">72%</span></div>
+                <div class="skill-bar-top"><span class="skill-bar-name">React.js</span><span class="skill-bar-level">Avançado</span></div>
                 <div class="skill-bar-track"><div class="skill-bar-fill" data-width="72"></div></div>
               </div>
               <div class="skill-bar-item">
-                <div class="skill-bar-top"><span class="skill-bar-name">SQL (MySQL, SQL Server)</span><span class="skill-bar-pct">80%</span></div>
+                <div class="skill-bar-top"><span class="skill-bar-name">SQL (MySQL, SQL Server)</span><span class="skill-bar-level">Avançado</span></div>
                 <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
               </div>
               <div class="skill-bar-item">
-                <div class="skill-bar-top"><span class="skill-bar-name">HTML / CSS / JS</span><span class="skill-bar-pct">78%</span></div>
-                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div>
+                <div class="skill-bar-top"><span class="skill-bar-name">HTML / CSS / JS</span><span class="skill-bar-level">Avançado</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div>
               </div>
             </div>
 
@@ -427,6 +427,12 @@
             <li data-filter=".filter-backend">Back-end</li>
             <li data-filter=".filter-frontend">Front-end</li>
             <li data-filter=".filter-fullstack">Full-Stack</li>
+            <!-- Novos filtros por tecnologia -->
+            <li data-filter=".filter-spring">Spring Boot</li>
+            <li data-filter=".filter-react">React</li>
+            <li data-filter=".filter-csharp">C# / .NET</li>
+            <li data-filter=".filter-php">PHP / Laravel</li>
+            <li data-filter=".filter-node">Node.js</li>
           </ul>
           <div class="portfolio-search">
             <i class="bi bi-search"></i>
@@ -437,7 +443,7 @@
         <div class="row g-4 portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
           <!-- Consumer Monitor -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-frontend" data-title="consumer monitor extensão chrome">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-frontend filter-js" data-title="consumer monitor extensão chrome">
             <div class="portfolio-wrap">
               <div class="portfolio-thumb">
                 <img src="assets/img/portfolio/Consumer_Monitor/inicio.png" alt="Consumer Monitor">
@@ -465,7 +471,7 @@
           </div>
 
           <!-- Bibliotheca Classica -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-backend" data-title="bibliotheca classica php laravel buscador livros">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-backend filter-php filter-laravel" data-title="bibliotheca classica php laravel buscador livros">
             <div class="portfolio-wrap">
               <div class="portfolio-thumb">
                 <img src="assets/img/portfolio/php-biblioteca/home.png" alt="Bibliotheca Classica">
@@ -494,7 +500,7 @@
           </div>
 
           <!-- MVCWebApp -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-backend" data-title="mvcwebapp gestão produtos csharp dotnet mvc">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-backend filter-csharp filter-dotnet" data-title="mvcwebapp gestão produtos csharp dotnet mvc">
             <div class="portfolio-wrap">
               <div class="portfolio-thumb">
                 <img src="assets/img/portfolio/MVCWebApp/2026_04_30_0z7_Kleki.png" alt="MVCWebApp">
@@ -523,7 +529,7 @@
           </div>
 
           <!-- DiscoXP -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-fullstack" data-title="discoxp ecommerce games spring react">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-fullstack filter-spring filter-react" data-title="discoxp ecommerce games spring react">
             <div class="portfolio-wrap">
               <div class="portfolio-thumb">
                 <img src="assets/img/portfolio/discoxp/dico.png" alt="DiscoXP">
@@ -552,7 +558,7 @@
           </div>
 
           <!-- NutriBem -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-fullstack" data-title="nutribem gestão clínica nutrição spring react">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-fullstack filter-spring filter-react" data-title="nutribem gestão clínica nutrição spring react">
             <div class="portfolio-wrap">
               <div class="portfolio-thumb">
                 <img src="assets/img/portfolio/nutribem/nutri.png" alt="NutriBem">
@@ -581,7 +587,7 @@
           </div>
 
           <!-- GameSync -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-fullstack" data-title="gamesync plataforma jogos react nodejs tcc">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-fullstack filter-react filter-node" data-title="gamesync plataforma jogos react nodejs tcc">
             <div class="portfolio-wrap">
               <div class="portfolio-thumb">
                 <img src="assets/img/portfolio/GameSync/GameSync.png" alt="GameSync">
